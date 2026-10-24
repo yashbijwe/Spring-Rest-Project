@@ -9,10 +9,16 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
+<<<<<<< HEAD
 	<artifactId>BootRestProj03</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>BootRestProj03</name>
+=======
+	<artifactId>BootRestProj01</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>BootRestProj01</name>
+>>>>>>> 255a27b78bf610714266b8a10399d126f05421b5
 	<description>Rest</description>
 	<url/>
 	<licenses>
@@ -37,6 +43,7 @@
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -47,6 +54,8 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
+=======
+>>>>>>> 255a27b78bf610714266b8a10399d126f05421b5
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
@@ -58,6 +67,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
 				<configuration>
 					<excludes>
 						<exclude>
@@ -102,6 +112,8 @@
 						</configuration>
 					</execution>
 				</executions>
+=======
+>>>>>>> 255a27b78bf610714266b8a10399d126f05421b5
 			</plugin>
 		</plugins>
 	</build>
